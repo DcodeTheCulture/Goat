@@ -1,1 +1,1 @@
-alert("hello")
+alert("Men lie, Woman lie, Numbers dont! Choose your GOAT")
