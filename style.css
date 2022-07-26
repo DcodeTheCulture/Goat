@@ -1,3 +1,296 @@
-body{
-    background: red;
+body {
+    margin: 10px;
+    padding: 0px;
+    background-color: #212529;
+    
+    color: white;
+    
 }
+
+.lebronPage {
+    background-image: 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.stephPage {
+    background-image: 
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.kobePage {
+    background-image: url('img/kobechamp1.jpeg'); 
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: left;
+}
+
+.hero2 {
+    font-family: cursive;
+    text-align: center;
+    text-decoration-line: underline;
+    color: rgb(58, 52, 52);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #c1121f;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("img/bballBanner.jpeg");
+    
+}
+
+.hero3 {
+    font-style: oblique;
+    text-align: center;
+    text-decoration-line: underline;
+    color: rgb(58, 52, 52);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: rgba(255, 247, 0, 0.824);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero4{
+    font-style: oblique;
+    text-align: center;
+    text-decoration-line: underline;
+    color: rgb(58, 52, 52);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #0061ff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.hero5 {
+    font-style: oblique;
+    text-align: center;
+    text-decoration-line: underline;
+    color: rgb(58, 52, 52);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: rgba(213, 208, 208, 0.824);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero6 {
+    font-style: oblique;
+    text-align: center;
+    text-decoration-line: underline;
+    color: rgb(58, 52, 52);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color:  rgba(255, 247, 0, 0.865);
+    background-repeat: no-repeat;
+    background-size: 140px;
+    
+    
+}
+
+.lebronH1 {
+    color: black;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.stepH1{
+    color: black;
+    font-weight: bolder;
+    font-size: 50px;
+    
+}
+
+.kdH1{
+    color: black;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+#lebronD {
+    margin-left: 30%;
+    padding-top: 20px;
+    width: 40%;
+    flex: auto;
+    border-style: solid;
+    
+}
+
+#steph3{
+    margin-left: 30%;
+    padding-top: 20px;
+    width: 40%;
+    flex: auto;
+    border-style: solid;
+}
+
+#KD {
+    margin-left: 30%;
+    padding-top: 20px;
+    width: 40%;
+    flex: auto;
+    border-style: solid;
+}
+
+.bronstats{
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 960%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+
+.Lbutton{
+    color: #fcbf49;
+} 
+
+
+
+ .player1 {
+    font-size: xx-large;
+    margin-left: 30%;
+    color: white;
+}
+
+.player1:hover {
+    color: #fcbf49;
+}
+
+.player2 {
+    font-size: xx-large;
+    margin-left: 30%;
+    color: white;
+}
+
+.player2:hover {
+    color: #fcbf49;
+}
+
+.player3 {
+    font-size: xx-large;
+    margin-left: 30%;
+    color: white;
+}
+
+.player3:hover {
+    color: #fcbf49;
+}
+
+.player4 {
+    font-size: xx-large;
+    margin-left: 30%;
+    color: white;
+}
+
+.player4:hover {
+    color: #fcbf49;
+}
+
+
+ h1 {
+    color: gold;
+}
+
+p {
+    color: white;
+    font-size: 1.3rem ;
+    
+}
+
+.content {
+    margin-top: 5%;
+}
+
+.homePage {
+    align-items: flex-end;
+    color: gainsboro;
+    text-decoration: underline;
+}
+
+.news-container {
+    position: fixed;`
+    top: 0%;
+    left: 0%;
+    right: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 4px 8px -4px rgb(0, 0, 0);
+    padding-top: 1%;
+    padding-left: 0%;
+}
+
+.news-container .title {
+    position: absolute;
+    background: #df2020;
+    height: 34;
+    width: 40;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    color: white;
+    font-weight: bold;
+    z-index: 200;
+    
+}
+
+.news-container ul {
+    display: flex;
+    list-style: none;
+    margin: 0%;
+    animation: scroll 25s infinite linear;
+}
+ 
+.news-container ul li {
+    white-space: nowrap;
+    padding: 1px 15px ;
+    position: relative;
+}
+
+.news-container ul li::after {
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: #b8b8b8;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.news-container ul li:last-child:after {
+    display: none;
+}
+
+@keyframes scroll {
+    from{ 
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-1066px);
+    }
+}
+    
+
+
+
+
+
+/* @media (max-width: 1200px){
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }   
+} */
